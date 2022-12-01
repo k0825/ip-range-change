@@ -5,7 +5,7 @@ import requests
 
 IP_RANGE_URL = 'https://ip-ranges.amazonaws.com/ip-ranges.json'
 REGION = 'ap-northeast-1'
-SERVICE = 'S3'
+SERVICE = 'AMAZON'
 
 
 def lambda_handler(event, context):
